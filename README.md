@@ -2,7 +2,7 @@
 
 > Herramienta creada por XDeadHackerX
 
-<p align="center"><img width="95px" alt="Version" src="https://img.shields.io/badge/version-1.3-a3a8b7.svg?style=for-the-badge"/></p>
+<p align="center"><img width="120px" alt="Version" src="https://img.shields.io/badge/version-1.3-a3a8b7.svg?style=for-the-badge"/></p>
 
 [![Inhibitor-1-3.png](https://i.postimg.cc/sfNstwF1/Inhibitor-1-3.png)](https://postimg.cc/qgyPKcvd)
 
