@@ -1,20 +1,8 @@
 #!bin/bash
 
-clear
-echo
-echo "                           _____           _       _   _       _   _                  "
-echo "                          |_   _|         | |     (_) | |     (_) | |                 "
-echo "                            | |    _ __   | |__    _  | |__    _  | |_    ___    _ __ "
-echo "                            | |   | '_ \  | '_ \  | | | '_ \  | | | __|  / _ \  | '__|"
-echo "                           _| |_  | | | | | | | | | | | |_) | | | | |_  | (_) | | |   "
-echo "                          |_____| |_| |_| |_| |_| |_| |_.__/  |_|  \__|  \___/  |_|   " 
-echo "                              __________________________________________________"					
-echo "                                ︻デ═一  Created by: XDeadHackerX v1.3  ︻デ═一 " 
-echo "          -------------------------------------------------------------------------------------------"
-echo "          Cualquier acción y o actividad relacionada con Inhibitor es únicamente su responsabilidad"
-echo "          -------------------------------------------------------------------------------------------"
-echo
-echo
+source installer.sh
+
+Title
 echo "                          ========================================================"
 echo "                                                 Utilidades"
 echo "                          ========================================================"
@@ -32,9 +20,9 @@ echo "                          ================================================
 echo "                          [6] Desconectar a un disposito de una Red Wifi"
 echo "                          [7] Desconectar a todos los dispositivos de una Red Wifi"
 echo "                          [8] Desconectar a todas las Redes Wifi de un Canal"
-echo "                                                -----------"
-echo "                          [9] ==================""|""☢ Salir ☢""|""======================="
-echo "                                                -----------"
+echo "                                                 -----------"
+echo "                          [99] ==================""|""☢ Salir ☢""|""======================"
+echo "                                                 -----------"
 echo
 read -p " [*] Elige una opcion: " opc
 	case $opc in
@@ -54,7 +42,7 @@ read -p " [*] Elige una opcion: " opc
 				;;
 			8 )	bash requisitos/8.sh
 				;;
-			9 )	exit
+			99 )	exit
 				;;
 			* )	echo
 				echo "$RRPLY No es una opcion valida"
