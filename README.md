@@ -27,13 +27,15 @@
 
 ## 🎲 Tener en Cuenta 🎲
 
-[1] No hace falta poner la Tarjeta en Modo Monitor, las opciones que requieren de este Modo se activan y se desactivan de forma automática.
+**[1]** No hace falta poner la Tarjeta en Modo Monitor, las opciones que requieren de este Modo se activan y se desactivan de forma automática.
 
-[2] Los ataques 4 y 5 cuentan con Modo Seguro, haciendo que el Ataque DOS a los dispositivos sean con una IP distinta, llegando a utilizar miles de IPs distintas.
+**[2]** Los ataques 4 y 5 cuentan con Modo Seguro, haciendo que el Ataque DOS a los dispositivos sean con una IP distinta, llegando a utilizar miles de IPs distintas.
 
-[3] Las opciones 2 y 3 y los ataques 6, 7 y 8 cuentas con Modo Seguro, haciendo que cambie la MAC de la Tarjeta por una random cada vez que se ejecute una de estas opciones.
+**[3]** Las opciones 2 y 3 y los ataques 6, 7 y 8 cuentas con Modo Seguro, haciendo que cambie la MAC de la Tarjeta por una random cada vez que se ejecute una de estas opciones.
 
-[4] La herramienta soporta escaneos y ataques a las bandas Wifi 5GHz.
+**[4]** La herramienta soporta escaneos y ataques a las bandas Wifi 5GHz.
+
+**[5]** En caso de que tengas descargada una versión más antigua, te aconsejo borrarla y volver a instalar la herramienta (+requisitos) para solucionar errores y obtener mejoras, que hacen que la herramienta sea mucho mejor que las versiones anteriores.
 
 ## 🔎 Versiones 🔎
 
@@ -43,7 +45,7 @@
 
 (v1.2) --->   Nuevo Apartado (Desconectar a todas las Redes Wifi de un Canal), con este nuevo Ataque podemos Inhibir a todas las Redes Wifi que estén en un mismo Canal y con esto desconectar a todos los dispositivos conectados a estas de forma indefinida.
 
-(v1.3) --->   Mejoras en el Apartado ([2] Escáner avanzado Redes Wifi), dándote a escoger entre 3 Herramientas para hacer el Escaneo (Aircrack-ng, Bettercap, Wash). Optimización del código, mejoras visuales, solución de errores.
+(v1.3) --->   Mejoras en el Apartado ([2] Escáner avanzado Redes Wifi), dándote a escoger entre 3 Herramientas para hacer el Escaneo (Aircrack-ng, Bettercap, Wash). Optimización del código, mejoras visuales, solución de errores, optimización del código.
 
 ## ⭐☕ Creado por XDeadHackerX ☕⭐
 
@@ -51,4 +53,4 @@
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/XDeadHackerX)
 
-Copyright © 2022, XDeadHackerX
+Copyright © 2023, XDeadHackerX
