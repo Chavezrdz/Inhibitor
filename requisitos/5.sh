@@ -1,41 +1,15 @@
 #!bin/bash
 
-clear
-echo
-echo "                           _____           _       _   _       _   _                  "
-echo "                          |_   _|         | |     (_) | |     (_) | |                 "
-echo "                            | |    _ __   | |__    _  | |__    _  | |_    ___    _ __ "
-echo "                            | |   | '_ \  | '_ \  | | | '_ \  | | | __|  / _ \  | '__|"
-echo "                           _| |_  | | | | | | | | | | | |_) | | | | |_  | (_) | | |   "
-echo "                          |_____| |_| |_| |_| |_| |_| |_.__/  |_|  \__|  \___/  |_|   " 
-echo "                              __________________________________________________"					
-echo "                                ︻デ═一  Created by: XDeadHackerX v1.3  ︻デ═一 " 
-echo "          -------------------------------------------------------------------------------------------"
-echo "          Cualquier acción y o actividad relacionada con Inhibitor es únicamente su responsabilidad"
-echo "          -------------------------------------------------------------------------------------------"
-echo
-echo
+source installer.sh
+
+Title
 echo "[5] Relentizar el flujo de datos del Router"
 echo
 read -p "[*] Escribe la Ip de Red (Ej: 192.168.1.0 o 192.168.0.0): " opc1
 sudo netdiscover -r $opc1/24 -P
 echo
 read -p "[*] Pon la IP del Route (Ej: 192.168.1.1): " ip
-clear
-echo
-echo "                           _____           _       _   _       _   _                  "
-echo "                          |_   _|         | |     (_) | |     (_) | |                 "
-echo "                            | |    _ __   | |__    _  | |__    _  | |_    ___    _ __ "
-echo "                            | |   | '_ \  | '_ \  | | | '_ \  | | | __|  / _ \  | '__|"
-echo "                           _| |_  | | | | | | | | | | | |_) | | | | |_  | (_) | | |   "
-echo "                          |_____| |_| |_| |_| |_| |_| |_.__/  |_|  \__|  \___/  |_|   " 
-echo "                              __________________________________________________"					
-echo "                                ︻デ═一  Created by: XDeadHackerX v1.3  ︻デ═一 " 
-echo "          -------------------------------------------------------------------------------------------"
-echo "          Cualquier acción y o actividad relacionada con Inhibitor es únicamente su responsabilidad"
-echo "          -------------------------------------------------------------------------------------------"
-echo
-echo
+Title
 echo "[#] Pulse Ctrl + c (Finalizar Ataque)"
 echo
 echo "========================================================================================="

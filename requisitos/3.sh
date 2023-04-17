@@ -1,20 +1,8 @@
 #!bin/bash
 
-clear
-echo
-echo "                           _____           _       _   _       _   _                  "
-echo "                          |_   _|         | |     (_) | |     (_) | |                 "
-echo "                            | |    _ __   | |__    _  | |__    _  | |_    ___    _ __ "
-echo "                            | |   | '_ \  | '_ \  | | | '_ \  | | | __|  / _ \  | '__|"
-echo "                           _| |_  | | | | | | | | | | | |_) | | | | |_  | (_) | | |   "
-echo "                          |_____| |_| |_| |_| |_| |_| |_.__/  |_|  \__|  \___/  |_|   " 
-echo "                              __________________________________________________"					
-echo "                                ︻デ═一  Created by: XDeadHackerX v1.3  ︻デ═一 " 
-echo "          -------------------------------------------------------------------------------------------"
-echo "          Cualquier acción y o actividad relacionada con Inhibitor es únicamente su responsabilidad"
-echo "          -------------------------------------------------------------------------------------------"
-echo
-echo
+source installer.sh
+
+Title
 echo "[3] Escanear dispositivos conectados a un Wifi Ajeno"
 echo 
 sudo airmon-ng
@@ -60,21 +48,7 @@ echo "--------------->""      |"
 sleep 1
 echo "--------------------->""|"
 echo "======================="
-clear
-echo
-echo "                           _____           _       _   _       _   _                  "
-echo "                          |_   _|         | |     (_) | |     (_) | |                 "
-echo "                            | |    _ __   | |__    _  | |__    _  | |_    ___    _ __ "
-echo "                            | |   | '_ \  | '_ \  | | | '_ \  | | | __|  / _ \  | '__|"
-echo "                           _| |_  | | | | | | | | | | | |_) | | | | |_  | (_) | | |   "
-echo "                          |_____| |_| |_| |_| |_| |_| |_.__/  |_|  \__|  \___/  |_|   " 
-echo "                              __________________________________________________"					
-echo "                                ︻デ═一  Created by: XDeadHackerX v1.3  ︻デ═一 " 
-echo "          -------------------------------------------------------------------------------------------"
-echo "          Cualquier acción y o actividad relacionada con Inhibitor es únicamente su responsabilidad"
-echo "          -------------------------------------------------------------------------------------------"
-echo
-echo
+Title
 echo "[#] Pulse Ctrl + c (Cuando aparezca por pantalla el Wifi objetivo, puede tardar hasta 1 minuto)"
 echo
 sudo wash -2 -5 -a -i $interfaz2

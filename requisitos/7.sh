@@ -1,20 +1,8 @@
 #!bin/bash
 
-clear
-echo
-echo "                           _____           _       _   _       _   _                  "
-echo "                          |_   _|         | |     (_) | |     (_) | |                 "
-echo "                            | |    _ __   | |__    _  | |__    _  | |_    ___    _ __ "
-echo "                            | |   | '_ \  | '_ \  | | | '_ \  | | | __|  / _ \  | '__|"
-echo "                           _| |_  | | | | | | | | | | | |_) | | | | |_  | (_) | | |   "
-echo "                          |_____| |_| |_| |_| |_| |_| |_.__/  |_|  \__|  \___/  |_|   " 
-echo "                              __________________________________________________"					
-echo "                                ︻デ═一  Created by: XDeadHackerX v1.3  ︻デ═一 " 
-echo "          -------------------------------------------------------------------------------------------"
-echo "          Cualquier acción y o actividad relacionada con Inhibitor es únicamente su responsabilidad"
-echo "          -------------------------------------------------------------------------------------------"
-echo
-echo
+source installer.sh
+
+Title
 echo "[7] Desconectar a todos los dispositivos de una Red Wifi"
 echo 
 sudo airmon-ng
@@ -60,41 +48,13 @@ echo "--------------->""      |"
 sleep 1
 echo "--------------------->""|"
 echo "======================="
-clear
-echo
-echo "                           _____           _       _   _       _   _                  "
-echo "                          |_   _|         | |     (_) | |     (_) | |                 "
-echo "                            | |    _ __   | |__    _  | |__    _  | |_    ___    _ __ "
-echo "                            | |   | '_ \  | '_ \  | | | '_ \  | | | __|  / _ \  | '__|"
-echo "                           _| |_  | | | | | | | | | | | |_) | | | | |_  | (_) | | |   "
-echo "                          |_____| |_| |_| |_| |_| |_| |_.__/  |_|  \__|  \___/  |_|   " 
-echo "                              __________________________________________________"					
-echo "                                ︻デ═一  Created by: XDeadHackerX v1.3  ︻デ═一 " 
-echo "          -------------------------------------------------------------------------------------------"
-echo "          Cualquier acción y o actividad relacionada con Inhibitor es únicamente su responsabilidad"
-echo "          -------------------------------------------------------------------------------------------"
-echo
-echo
+Title
 echo "[#] Pulse Ctrl + c (Cuando aparezca por pantalla el Wifi objetivo, puede tardar hasta 1 minuto)"
 echo
 sudo wash -2 -5 -a -i $interfaz2
 read -p "[*] Copia el BSSID del Wifi Objetivo y pegelo a continuacion: " bssid
 read -p "[*] Copia el Canal (Ch) del Wifi Objetivo y pegelo a continuacion: " ch
-clear
-echo
-echo "                           _____           _       _   _       _   _                  "
-echo "                          |_   _|         | |     (_) | |     (_) | |                 "
-echo "                            | |    _ __   | |__    _  | |__    _  | |_    ___    _ __ "
-echo "                            | |   | '_ \  | '_ \  | | | '_ \  | | | __|  / _ \  | '__|"
-echo "                           _| |_  | | | | | | | | | | | |_) | | | | |_  | (_) | | |   "
-echo "                          |_____| |_| |_| |_| |_| |_| |_.__/  |_|  \__|  \___/  |_|   " 
-echo "                              __________________________________________________"					
-echo "                                ︻デ═一  Created by: XDeadHackerX v1.3  ︻デ═一 " 
-echo "          -------------------------------------------------------------------------------------------"
-echo "          Cualquier acción y o actividad relacionada con Inhibitor es únicamente su responsabilidad"
-echo "          -------------------------------------------------------------------------------------------"
-echo
-echo
+Title
 echo "[#] Pulse Ctrl + c (Para finalizar el Ataque y Todos los usuarios se reconecten al Wifi)"
 echo
 echo
