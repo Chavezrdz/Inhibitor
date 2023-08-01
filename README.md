@@ -39,13 +39,22 @@
 
 ## 🔎 Versiones 🔎
 
-(v1.0) --->   Versión Original.
-
-(v1.1) --->   Soporte para escaneos y Ataques a Redes Wifi 5GHz.
-
-(v1.2) --->   Nuevo Apartado (Desconectar a todas las Redes Wifi de un Canal), con este nuevo Ataque podemos Inhibir a todas las Redes Wifi que estén en un mismo Canal y con esto desconectar a todos los dispositivos conectados a estas de forma indefinida.
-
-(v1.3) --->   Mejoras en el Apartado ([2] Escáner avanzado Redes Wifi), dándote a escoger entre 3 Herramientas para hacer el Escaneo (Aircrack-ng, Bettercap, Wash). Optimización del código, mejoras visuales, solución de errores, optimización del código.
+<details>
+  <summary>[ v1.0 ]</summary>
+  <p align="justify">[#] Versión Original.</p>
+</details>
+<details>
+  <summary>[ v1.1 ]</summary>
+  <p align="justify">[#] Soporte para escaneos y Ataques a Redes Wifi 5GHz.</p>
+</details>
+<details>
+  <summary>[ v1.2 ]</summary>
+  <p align="justify">[#] Nuevo Apartado (Desconectar a todas las Redes Wifi de un Canal), con este nuevo Ataque podemos Inhibir a todas las Redes Wifi que estén en un mismo Canal y con esto desconectar a todos los dispositivos conectados a estas de forma indefinida.</p>
+</details>
+<details>
+  <summary>[ v1.3 ]</summary>
+  <p align="justify">[#] Mejoras en el Apartado ([2] Escáner avanzado Redes Wifi), dándote a escoger entre 3 Herramientas para hacer el Escaneo (Aircrack-ng, Bettercap, Wash). Optimización del código, mejoras visuales, solución de errores, optimización del código.</p>
+</details>
 
 ## ⭐☕ Creado por XDeadHackerX ☕⭐
 
