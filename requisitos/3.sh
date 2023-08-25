@@ -97,7 +97,7 @@ read -p "Elige una opcion: " opc2
 				;;
 			2 )	bash requisitos/3.sh
 				;;
-			3 )	exit && clear
+			3 )	exit
 				;;
 			* )	echo
 				echo "$RRPLY No es una opcion valida"
