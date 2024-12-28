@@ -50,3 +50,4 @@ read -p " [*] Choose one option: " opc
 				bash inhibitor.sh
 	esac
                                                              
+All recovery media Data"
